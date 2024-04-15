@@ -1,4 +1,4 @@
-<h1 style="text-align: center;"><img src="Images\photo_2024-04-15_20-49-37.jpg" height="100" /></h1>
+<h1 align="center"><img src="Images\photo_2024-04-15_20-49-37.jpg" height="100" /></h1>
 <h1 align="center">Команда COZYDUKE</a> 
 
 
