@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+	<form method="post" action="{% url 'compare_docs' %}">
+		<p>Uploaded specs:</p>
+		{% csrf_token %}
+		{% for obj in documents %}
+		{% if obj.doc_type == '1'  %}
+		<input type="radio" name="group1" value="{{ obj.document }}%{{obj.id}}"/>{{ obj.description }}<br>
+		{% endif %}
+		{% endfor %}
+	<p>Uploaded reqs:</p>
+        {% for obj in documents %}
+        {% if obj.doc_type == '2'  %}
+		<input type="radio" name="group2" value="{{ obj.document }}%{{obj.id}}"/>{{ obj.description }}<br>
+      {% endif %}
+      {% endfor %}
+	  <button type="submit">Compare</button>
+    </form>
+
+  <p><a href="{% url 'home' %}">Return to home</a></p>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+	<p>Uploaded reqs:</p>
+      {% for obj in documents %}
+      {% if obj.doc_type == '1'  %}
+
+      <div>
+          <input type="radio" id="{{ obj.id }}" name="docs2" value="{{ obj.document.id }}"/>
+        <label for="{{ obj.id }}"> {{ obj.description }} </label>
+      </div>
+
+      {% endif %}
+    {% endfor %}
+
+  <p>Uploaded reqs:</p>
+	  {% for obj in documents %}
+	  {% if obj.doc_type == '2'  %}
+
+      <div>
+		  <input type="radio" id="{{ obj.id }}" name="docs2" value="{{ obj.document.id }}"/>
+	 	<label for="{{ obj.id }}"> {{ obj.description }} </label>
+  	  </div>
+
+	  {% endif %}
+    {% endfor %}
+
+	<div>
+      <button type="submit">Submit</button>
+    </div>
+
+  <p><a href="{% url 'home' %}">Return to home</a></p>
+{% endblock %}
