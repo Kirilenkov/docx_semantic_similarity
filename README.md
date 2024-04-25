@@ -32,6 +32,16 @@
 
 * Черновик решения можно посмотреть по [ссылке](https://github.com/Kirilenkov/docx_semantic_similarity/blob/main/Cozyduke.ipynb)
 
+* Драфт Презентации по [ссылке](https://docs.google.com/presentation/d/19MKoikK0WQJsN2zJ6zbOdmBldHqTXY50/edit?usp=sharing&ouid=110469314787184143425&rtpof=true&sd=true)
+
+* В [директории](https://github.com/Kirilenkov/docx_semantic_similarity/tree/main/ml_compare_r) находится исходный код веб-сервиса для данной задачи.
+ Для того, чтобы собрать и запустить контейнер нужно выполнить команды
+  ```
+  docker compose build
+  docker compose up
+  ```
+В результате запущенный веб-сервис будет слушать на порту 8000
+
 ## Критерии качества к продукту:
 
  - Точность анализа текстов: продукт должен правильно анализировать и сравнивать тексты документов, выявляя соответствие между ними.
