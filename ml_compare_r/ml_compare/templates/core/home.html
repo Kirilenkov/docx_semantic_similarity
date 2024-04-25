@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <ul>
+    <li>
+      <a href="{% url 'model_form_upload' %}">Document Upload</a>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="{% url 'compare_docs' %}">Compare specs and reqs</a>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="{% url 'list' %}">List all files</a>
+    </li>
+  </ul>
+
+{% endblock %}
