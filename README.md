@@ -26,9 +26,9 @@
 4) Финальное оформление веб-сервиса с возможностью загрузки сравниваемых документов  
 
 ## Инструкция по разворачиванию каждого модуля прототипа системы
-Решение и детальное описание можно посмотреть по [ссылке](https://github.com/Kirilenkov/docx_semantic_similarity/blob/main/Cozyduke.ipynb)
-А также по [ссылке в Google Colab](https://colab.research.google.com/drive/1F95TVFdMlujqinHqjWJhwqPT0g-IrH2w?usp=sharing)
-
+Итоговое решение [по ссылке](https://github.com/Kirilenkov/docx_semantic_similarity/blob/main/Cozyduke_v2.ipynb)
+А также по [ссылке в Google Colab](https://colab.research.google.com/drive/1awWW0mdWqpveewJf0CDHcWKQgD8N_MH1?usp=sharing)
+Черновик решения можно посмотреть по [ссылке](https://github.com/Kirilenkov/docx_semantic_similarity/blob/main/Cozyduke.ipynb)
 
 ## Анализ имеющихся моделей для решения задачи сопоставления требований с характеристиками и оценки степени удовлетворения требованию
 
